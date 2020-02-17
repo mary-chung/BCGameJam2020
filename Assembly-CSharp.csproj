@@ -63,19 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\playerMovement.cs" />
     <Compile Include="Assets\Scripts\2D-Character-Controller-master\CharacterController2D.cs" />
-    <Compile Include="Assets\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\Scripts\Bed.cs" />
-    <Compile Include="Assets\Scripts\BigHamster.cs" />
-    <Compile Include="Assets\Scripts\Bird.cs" />
-    <Compile Include="Assets\Scripts\Cat.cs" />
-    <Compile Include="Assets\Scripts\Human.cs" />
-    <Compile Include="Assets\Scripts\LevelManager.cs" />
-    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerDog.cs" />
-    <Compile Include="Assets\Scripts\RainbowCat.cs" />
-    <Compile Include="Assets\Scripts\SmallHamster.cs" />
-    <Compile Include="Assets\Scripts\Trashcan.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity/BCGameJam2020/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
