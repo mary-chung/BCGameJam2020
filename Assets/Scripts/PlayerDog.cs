@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class Dog : MonoBehaviour
+public class PlayerDog : MonoBehaviour
 {
     bool isAsleep; // dog is only asleep right in beginning, remember to switch this value to false eventually
     bool isFacingRight;
@@ -64,7 +64,7 @@ public class Dog : MonoBehaviour
             {
                 isRunning = true;
             }
-            transform.position += transform.TransformDirection(Vector3.left) * Time.deltaTime * playerSpeed;
+            transform.position -= transform.TransformDirection(Vector3.right) * Time.deltaTime * playerSpeed;
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {   
@@ -76,7 +76,7 @@ public class Dog : MonoBehaviour
             {
                 isRunning = true;
             }
-            transform.position += transform.TransformDirection(Vector3.right) * Time.deltaTime * playerSpeed;
+            transform.position -= transform.TransformDirection(Vector3.left) * Time.deltaTime * playerSpeed;
         }
         else
         {
